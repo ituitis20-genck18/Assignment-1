@@ -1,9 +1,50 @@
 
 
+body{
+			background-color: #FFDAB9;
+}
 
+	a.button1:link , a.button1:visited{
+			background-color: forestgreen;
+			display: inline-block;
+			text-decoration: none;
+			color: white;
+			margin:2px;
+			padding: 5px;
+			padding-right: 15px;
+			text-align: center;
+			font-family: monospace;
+
+		}
+
+		a.button1:active , a.button1:hover{
+
+			background-color: navy;
+
+		}
+
+		a.button2:link , a.button2:visited{
+			background-color: forestgreen;
+			display: block;
+			text-decoration: none;
+			color: white;
+			margin:2px;
+			padding-bottom: 50px;
+			padding-right: 15px;
+			text-align: center;
+			font-family: monospace;
+			font-size: 20px;
+
+		}
+
+		a.button2:active , a.button2:hover{
+
+			background-color: navy;
+
+		}
 h1{
-	color:red;
-	margin:20px;
+			color:green;
+			text-align: center;
 }
 
 th{
