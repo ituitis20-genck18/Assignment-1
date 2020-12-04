@@ -2,17 +2,55 @@
 <head>
 
 	<link rel="stylesheet" href="stylesheet.css">
+
+	<style>
+		
+		h1{font-size: 50px;}
+		.lunch{
+			border-collapse: collapse;
+			text-align: center;
+			font-family: Arial, Helvetica, sans-serif;
+			margin:auto;
+			font-size:25px;
+		}
+
+		.lunch th , .lunch td{
+
+			border: 2px solid white;
+			padding: 10px;
+		}
+
+		.lunch th{
+			background-color:#8CE563;
+			color: #F0F0F0;
+		}
+
+		.lunch tr:nth-child(even){
+			background-color: #63E5BA;
+		}
+
+
+		.lunch tr:nth-child(odd){
+			background-color: #9263E5;
+		}
+
+		.lunch tr:hover{
+			background-color: wheat;
+		}
+
+
+	</style>
 </head>
 
 <body>
 	<h1>Lunch</h1>
 
-	<table>
+	<table class="lunch">
 		
 		<tr>
 			<th>Monday</th>
 			<td>Lentil Soup</td>
-			<td>Pizza</td>
+			<td>Pizza & Fries</td>
 			<td>Fruit Juice</td>
 			<td>Salad Bar</td>
 		</tr>
@@ -52,5 +90,7 @@
 
 	</table>
 
-	<a href="index.html">Return to Home</a>
+	<br><br><br>
+
+	<a class="button2" href="index.html"><br>Return to Home<br><br></a>
 </body>

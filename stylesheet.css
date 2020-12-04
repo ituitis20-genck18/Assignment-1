@@ -14,6 +14,7 @@ body{
 			padding-right: 15px;
 			text-align: center;
 			font-family: monospace;
+			background-clip: padding-box;
 
 		}
 
@@ -25,15 +26,17 @@ body{
 
 		a.button2:link , a.button2:visited{
 			background-color: forestgreen;
+			margin: auto;
 			display: block;
+
 			text-decoration: none;
 			color: white;
 			margin:2px;
-			padding-bottom: 50px;
 			padding-right: 15px;
 			text-align: center;
 			font-family: monospace;
 			font-size: 20px;
+			background-clip: padding-box;
 
 		}
 
@@ -45,6 +48,8 @@ body{
 h1{
 			color:green;
 			text-align: center;
+			display: block;
+			background-color: mediumspringgreen;
 }
 
 th{
